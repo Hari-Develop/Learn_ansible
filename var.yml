@@ -1,8 +1,8 @@
 - name: first demo varibale
   hosts: all
+  vars_file:
+    - exvars.yml
   tasks:
     - name: print URL
       ansible.builtin.debug:
         msg: URL - {{ URL }}
-      vars:
-        URL: hari.playbook.com

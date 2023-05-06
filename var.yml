@@ -1,6 +1,6 @@
 - name: first demo varibale
   hosts: all
-  var_file:
+  vars_files:
     - exvars.yml
   tasks:
     - name: print URL

@@ -1,4 +1,4 @@
-- name: Demo first playbook
+- name: Demo roles_playbook
   hosts: all
   roles:
     - first_pakybook

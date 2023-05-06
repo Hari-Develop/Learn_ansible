@@ -1,0 +1,4 @@
+- name: Demo first playbook
+  hosts: all
+  roles:
+    - first_pakybook

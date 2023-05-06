@@ -1,0 +1,3 @@
+  - name: Hello world playbook
+      ansible.builtin.debug:
+        msg: Hello_World 

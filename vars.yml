@@ -1,0 +1,8 @@
+- name: first demo varibale
+  hosts: all
+  vars:
+    URL: hari.playbook.com
+  tasks:
+    - name: print URL
+      ansible.builtin.debug:
+        msg: URL - {{ URL }}

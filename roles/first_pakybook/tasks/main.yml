@@ -1,3 +1,11 @@
-  - name: Hello world playbook
-    ansible.builtin.debug:
-        msg: Hello_World_roles_play_book
+- name: Hello world playbook
+  ansible.builtin.debug:
+    msg: Hello_World_roles_play_book
+
+- name: print variable from var_roles
+  ansible.builtin.debug:
+    msg: URL - {{ URL }}
+
+- name: print variable from var_roles
+  ansible.builtin.debug:
+    msg: URL_play - {{ URL_play }}

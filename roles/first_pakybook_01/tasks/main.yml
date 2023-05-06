@@ -1,0 +1,3 @@
+- name: print variable from var_Play_URL
+  ansible.builtin.debug:
+    msg: URL_play - {{ URL_play }}

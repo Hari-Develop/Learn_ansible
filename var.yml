@@ -1,4 +1,4 @@
-- name: first demo varibale
+- name: first varibale_files
   hosts: all
   vars_files:
     - exvars.yml
@@ -6,14 +6,3 @@
     - name: print URL
       ansible.builtin.debug:
         msg: URL - {{ URL }}
-
-
-
-- name: Demo first playbook
-  hosts: all
-  roles:
-    - first_play
-  tasks:
-    - name: print role 
-      ansible.builtin.debug:
-        msg: 
